@@ -1,0 +1,291 @@
+/* ヘッダー */
+header {
+  height: 100px;
+  width: 1366px;
+  background-color: #DBDBDB;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.site_map {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.lists {
+  display: flex;
+  margin-right: 100px;
+}
+
+.list {
+  list-style: none;
+  margin-left: 70px;
+}
+
+
+
+/* フッター */
+footer {
+  height: 70px;
+  width: 1366px;
+  background-color: #FAFAFA;
+  font-size: 16px;
+  color: #959393;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* トップページ */
+.main {
+  height: 700px;
+  width: 1366px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.img {
+  width: 1366px;
+  height: 700px;
+  object-fit: cover;
+  opacity: 30%
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000000;
+  position: absolute;
+  top: calc(50% - 35px);
+  left: 60px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #000000;
+  display: block;
+  margin-top: 10px;
+}
+
+.link {
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #F0F0F0;
+  position: absolute;
+  top: 50%;
+  left: calc(100% - 60px);
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link a {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* ページタイトル */
+.page-title-main {
+  font-size: 64px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.page-title-sub {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+/* service */
+.service-main {
+  width: 1366px;
+}
+
+.service-contents {
+  width: calc(100% - 200px);
+  margin: 0 100px 180px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-content {
+  height: 420px;
+  width: 350px;
+}
+
+.service-image {
+  height: 275px;
+  width: 350px;
+}
+
+.service-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.service-text {
+  background-color: #DADADA;
+  height: 120px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.service-text-main {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.service-text-sub {
+  font-size: 14px;
+}
+
+.service-contents, .service-content, .service-image, .service-text {
+  box-sizing: border-box;
+}
+
+/* news */
+.news-main {
+  width: 1366px;
+}
+
+.news-contents {
+  width: 100%;
+  height: 760px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-contents-left {
+  width: 960px;
+  height: 760px;
+}
+
+.news-contents-left-sub {
+  width: 630px;
+  height: 600px;
+  margin: auto 165px;
+}
+
+.news-left-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.news-date {
+  font-size: 18px;
+  margin-right: 60px;
+}
+
+.news-category {
+  font-size: 18px;
+}
+
+.news-image {
+  width: 630px;
+  height: 240px;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+.news-text {
+  font-size: 18px;
+}
+
+.news-contents-right {
+  width: 406px;
+  height: 760px;
+}
+
+.news-category-lists {
+  width: 200px;
+  height: 600px;
+  margin: 0 103px;
+}
+
+.news-right-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.news-category-list {
+  width: 200px;
+  height: 60px;
+  background-color: #EEEDED;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* contact */
+.contact-main {
+  width: 1366px;
+}
+
+.contact-contents {
+  width: 100%;
+  height: 780px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  width: 650px;
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.contact-form-name, .contact-form-adress {
+  height: 60px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #DEDEDE;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.contact-form-content {
+  height: 160px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #DEDEDE;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.contact-form-send {
+  height: 50px;
+  width: 100px;
+  font-size: 24px;
+  background-color: #454545;
+  color: #ffffff;
+  display: block;
+}
